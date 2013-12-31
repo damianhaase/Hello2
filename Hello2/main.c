@@ -8,11 +8,16 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[])
-{
+void SayHello(void);
 
-    // insert code here...
-    printf("Hello, World!\n");
+int main (int argc, const char * argv[])
+{
+    SayHello();
+    
     return 0;
 }
 
+void SayHello(void)
+{
+    printf("Hello, world!\n");
+}
